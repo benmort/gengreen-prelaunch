@@ -151,7 +151,7 @@ const DescriptionContainer = styled.div`
 
   @media (min-width: ${bp.desktop}) {
     flex-direction: column;
-    padding-top: 142px;
+    padding-top: 125px;
   }
 `
 

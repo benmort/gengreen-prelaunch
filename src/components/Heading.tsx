@@ -14,12 +14,16 @@ import StyledContainer from "../styles/StyledContainer"
 import StyledButton from "../styles/StyledButton"
 import StyledSquare from "../styles/StyledSquare"
 
-const { mobile, tablet, desktop } = bp
+const { tablet, desktop } = bp
 
 const StyledH1 = styled.h1`
   line-height: 48px;
   margin-bottom: 32px;
   font-size: 3rem;
+
+  @media (min-width: ${desktop}) {
+    font-size: 3.5rem;
+  }
 `
 
 const HeadingContainer = styled(StyledContainer)`

@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { weights } from "./vars"
+import { weights, breakpoints as bp } from "./vars"
 
 const StyledButton = styled.button`
   width: 151px;
@@ -11,6 +11,10 @@ const StyledButton = styled.button`
   border-style: none;
   border-radius: 8px;
   cursor: pointer;
+
+  @media (min-width: ${bp.desktop}) {
+    height: 58px;
+  }
 
   &:hover {
     background: ${(props) =>
