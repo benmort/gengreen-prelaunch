@@ -6,8 +6,10 @@ const StyledSquare = styled.span`
   background: #e8eff2;
   border-radius: 20px;
   position: absolute;
-  left: 1305px;
-  top: 185.5px;
+  left: ${(props) => (props.left ? props.left : "")};
+  top: ${(props) => (props.top ? props.top : "")};
+  right: ${(props) => (props.right ? props.right : "")};
+  bottom: ${(props) => (props.bottom ? props.bottom : "")};
 `
 
 export default StyledSquare

@@ -120,7 +120,7 @@ const Heading = () => {
 
       {/* TODO: The network tab in the dev tools is showing two images are being fetched. Find a way to fetch the one appropriate image. */}
       <StyledImg src={getHeadingImgSrc()} alt="" />
-      {breakpoints.l && <StyledSquare />}
+      {breakpoints.l && <StyledSquare top="185.5px" left="1305px" />}
     </HeadingContainer>
   )
 }

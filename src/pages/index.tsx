@@ -3,8 +3,9 @@ import "../styles/globals.css"
 
 import Nav from "../components/Nav"
 import Heading from "../components/Heading"
-import StyledSquare from "../styles/StyledSquare"
 import About from "../components/About"
+import Features from "../components/Features"
+import Footer from "../components/Footer"
 
 const IndexPage = () => {
   return (
@@ -13,6 +14,8 @@ const IndexPage = () => {
       <Nav />
       <Heading />
       <About />
+      <Features />
+      <Footer />
     </main>
   )
 }
