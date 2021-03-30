@@ -4,7 +4,7 @@ import styled from "styled-components"
 
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 
-import { breakpoints as bp, breakpoints } from "../styles/vars"
+import { breakpoints as bp } from "../styles/vars"
 
 import PhoneAndKeyboardMobileImg from "../images/mobile/image-phone-and-keyboard.jpg"
 import GlassAndKeyboardMobileImg from "../images/mobile/image-glass-and-keyboard.jpg"
@@ -29,10 +29,6 @@ const AboutContainer = styled(StyledContainer)`
 const ImagesContainer = styled.div`
   display: flex;
   margin-bottom: 75px;
-
-  @media (min-width: ${bp.tablet}) {
-    /* justify-content: space-between; */
-  }
 `
 
 const StyledImg = styled.img`
