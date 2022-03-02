@@ -17,7 +17,7 @@ const Footer = () => {
     <StyledFooter>
       <p>
         <span style={{ fontWeight: 700 }}>
-          Typemaster 2021{" "}
+          genGreen 2022{" "}
           <span style={{ marginLeft: 3, marginRight: 3 }}>|</span>
         </span>{" "}
         All Rights Reserved

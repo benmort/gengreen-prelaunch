@@ -6,12 +6,12 @@ import { useBreakpoint } from "gatsby-plugin-breakpoints"
 
 import { breakpoints as bp } from "../styles/vars"
 
-import PhoneAndKeyboardMobileImg from "../images/mobile/image-phone-and-keyboard.jpg"
-import GlassAndKeyboardMobileImg from "../images/mobile/image-glass-and-keyboard.jpg"
-import PhoneAndKeyboardTabletImg from "../images/tablet/image-phone-and-keyboard.jpg"
-import GlassAndKeyboardTabletImg from "../images/tablet/image-glass-and-keyboard.jpg"
-import PhoneAndKeyboardDesktopImg from "../images/desktop/image-phone-and-keyboard.jpg"
-import GlassAndKeyboardDesktopImg from "../images/desktop/image-glass-and-keyboard.jpg"
+import PhoneAndKeyboardMobileImg from "../images/mobile/gg1.jpeg"
+import GlassAndKeyboardMobileImg from "../images/mobile/gg2.jpeg"
+import PhoneAndKeyboardTabletImg from "../images/tablet/gg1.jpeg"
+import GlassAndKeyboardTabletImg from "../images/tablet/gg2.jpeg"
+import PhoneAndKeyboardDesktopImg from "../images/desktop/gg1.jpeg"
+import GlassAndKeyboardDesktopImg from "../images/desktop/gg2.jpeg"
 
 import StyledContainer from "../styles/StyledContainer"
 import StyledSquare from "../styles/StyledSquare"
@@ -47,7 +47,7 @@ const StyledImg = styled.img`
 const StyledPhoneAndKeyboardImg = styled(StyledImg)`
   /* width: 129px;
   position: relative;
-  background: #f16718;
+  background: #5cab7d;
 
   @media (min-width: ${bp.tablet}) {
     right: 0;
@@ -67,7 +67,7 @@ const StyledPhoneAndKeyboardImgContainer = styled.div`
   position: relative;
   right: 44px;
   border-radius: 20px;
-  background-color: #f16718;
+  background-color: #5cab7d;
   height: 193px;
 
   img {
@@ -182,11 +182,9 @@ const About = () => {
         {breakpoints.l && <StyledSquare top="960px" left="-120px" />}
       </ImagesContainer>
       <DescriptionContainer>
-        <StyledH2>MECHANICAL WIRELESS KEYBOARD</StyledH2>
+        <StyledH2>GROW YOUR OWN FOREST</StyledH2>
         <StyledParagraph>
-          The Typemaster keyboard boasts top-notch build and practical design.
-          It offers a wide variety of switches and keycaps, along with reliable
-          wireless connectivity.
+          The genGreen way is to make it easy to plant your own forest.
         </StyledParagraph>
       </DescriptionContainer>
     </AboutContainer>

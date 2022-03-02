@@ -10,7 +10,7 @@ import Footer from "../components/Footer"
 const IndexPage = () => {
   return (
     <main>
-      <title>Typemaster</title>
+      <title>genGreen</title>
       <Nav />
       <Heading />
       <About />

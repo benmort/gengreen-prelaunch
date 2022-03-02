@@ -64,7 +64,7 @@ Not to be confused with the `filter` CSS property.
 import styled from "styled-components"
 
 const Container = styled.div`
-  background: #f16718;
+  background: #5cab7d;
 
   img {
     mix-blend-mode: multiply;

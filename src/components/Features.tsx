@@ -2,10 +2,10 @@ import React from "react"
 
 import styled from "styled-components"
 
-import BatteryIcon from "../images/shared/icon-battery.svg"
-import BluetoothIcon from "../images/shared/icon-bluetooth.svg"
-import CompatibleIcon from "../images/shared/icon-compatible.svg"
-import LightIcon from "../images/shared/icon-light.svg"
+import TreeIcon from "../images/shared/tree.svg"
+import MoneyIcon from "../images/shared/money.svg"
+import EarthIcon from "../images/shared/earth.svg"
+import InvestIcon from "../images/shared/invest.svg"
 
 import { breakpoints } from "../styles/vars"
 
@@ -30,7 +30,7 @@ const FeaturesContainer = styled.div`
   }
 `
 const IconContainer = styled.div`
-  background: #f16718;
+  background: #5cab7d;
   width: 65px;
   height: 65px;
   display: flex;
@@ -38,6 +38,7 @@ const IconContainer = styled.div`
   align-items: center;
   border-radius: 16px;
   margin-bottom: 48px;
+  color:white;
 `
 
 const Feature = styled.div`
@@ -81,26 +82,24 @@ const StyledParagraph = styled.p`
 const Features = () => {
   const featuresArr = [
     {
-      icon: <CompatibleIcon />,
-      title: `HIGHLY COMPATIBLE`,
-      description: `Easy to use and works well with all major computer brands, gaming
-          consoles and mobile devices. Plug & play, no installation or driver
-          needed`,
+      icon: <EarthIcon />,
+      title: `COMBAT CLIMATE CHANGE`,
+      description: `Everyone can help limit climate change. Planting trees in deforested areas can make a real difference.`,
     },
     {
-      icon: <BluetoothIcon />,
-      title: `WIRELESS WITH BLUETOOTH`,
-      description: `Powerful 2.4G RF technology allows you to connect the cordless keyboard from up to 30ft away. Simply plug the unifying receiver into your computer.`,
+      icon: <MoneyIcon />,
+      title: `EARN INTEREST`,
+      description: `Generate financial returns while also creating a positive environmental impact.`,
     },
     {
-      icon: <BatteryIcon />,
-      title: `HIGH CAPACITY BATTERY`,
-      description: `Equipped with a long-lasting built-in battery, you’ll never have to spend a dime on replaceable ones. Enjoy 40 hours of usage time between charges.`,
+      icon: <TreeIcon />,
+      title: `INCREASE BIODIVERSITY`,
+      description: `Reforestation is a critical means of addressing the decline of global biodiversity.`,
     },
     {
-      icon: <LightIcon />,
-      title: `RGB BACKLIT MODES`,
-      description: `Choose from 4 backlight brightness levels and adjustable breathing speed. Each key glows intensely in the dark and helps you type in low light conditions.`,
+      icon: <InvestIcon />,
+      title: `INVEST YOUR WAY`,
+      description: `Micro-investing is about making small and irregular investments from everyday transactions.`,
     },
   ]
 

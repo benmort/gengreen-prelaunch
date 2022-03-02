@@ -1,8 +1,8 @@
 import React from "react"
 
-import HeadingMobileImg from "../images/mobile/image-keyboard.jpg"
-import HeadingTabletImg from "../images/tablet/image-keyboard.jpg"
-import HeadingDesktopImg from "../images/desktop/image-keyboard.jpg"
+import HeadingMobileImg from "../images/mobile/gg3.jpeg"
+import HeadingTabletImg from "../images/tablet/gg3.jpeg"
+import HeadingDesktopImg from "../images/desktop/gg3.jpeg"
 
 import styled from "styled-components"
 
@@ -105,20 +105,21 @@ const Heading = () => {
   return (
     <HeadingContainer>
       <MainContainer>
-        <StyledH1>TYPEMASTER KEYBOARD</StyledH1>
+        <StyledH1>genGreen</StyledH1>
         <StyledParagraph>
-          Improve your productivity and gaming without breaking the bank.
-          Upgrade to a high quality mechanical typing experience.
+          Helping the world everyone to take carbon from the atmosphere and place it in the soil
+          <br/>
+          by micro-financing large reforestry campaigns all around the world.
         </StyledParagraph>
         <InnerContainer>
           <StyledButton
-            backgroundColor="#F16718"
+            backgroundColor="#5CAB7D"
             textColor="white"
-            backgroundHoverColor="#FF9B62"
+            backgroundHoverColor="#7CC299"
           >
-            PRE-ORDER NOW
+            PRE-REGISTER NOW
           </StyledButton>
-          <StyledSpan>RELEASE ON 5/27</StyledSpan>
+          <StyledSpan>LAUNCHING 2023</StyledSpan>
         </InnerContainer>
       </MainContainer>
 

@@ -1,5 +1,5 @@
 import React from "react"
-import LogoIcon from "../images/shared/logo.svg"
+import LogoIcon from "../images/shared/gglogosmall.svg"
 import styled from "styled-components"
 import { weights, breakpoints } from "../styles/vars"
 import StyledContainer from "../styles/StyledContainer"
@@ -23,7 +23,7 @@ const Nav = () => {
     <Navigation>
       <SpaceBetweenContainer>
         <LogoIcon />
-        <StyledButton>PRE-ORDER NOW</StyledButton>
+        <StyledButton>PRE-REGISTER NOW</StyledButton>
       </SpaceBetweenContainer>
     </Navigation>
   )
