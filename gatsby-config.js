@@ -5,7 +5,6 @@ const myCustomQueries = {
 }
 
 module.exports = {
-  pathPrefix: '/gengreen-prelaunch',
   siteMetadata: {
     title: "gengreen-prelaunch",
   },
@@ -32,7 +31,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/favicon-32x32.svg",
+        icon: "src/images/favicon-32x32.png",
       },
     },
   ],
